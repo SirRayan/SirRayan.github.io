@@ -75,7 +75,7 @@ export async function generateMetadata(props: PageProps<"/docs/[[...slug]]">): P
   const category = page.slugs[0]?.replace("_", " ")?.replace(/(^\w|\s\w)/g, (m) => m.toUpperCase());
 
   return {
-    title: `${page.data.title} - ${(category?.toLowerCase() !== page.data.title.toLowerCase() && category) || "Overextended"}`,
+    title: `${page.data.title} - ${(category?.toLowerCase() !== page.data.title.toLowerCase() && category) || "7MStudio"}`,
     description: page.data.description,
     openGraph: {
       images: getPageImage(page).url,
