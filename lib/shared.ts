@@ -1,4 +1,4 @@
-export const appName = "Overextended";
+export const appName = "7MStudio";
 export const docsRoute = "/docs";
 export const docsImageRoute = "/og/docs";
 export const docsContentRoute = "/llms.mdx/docs";
